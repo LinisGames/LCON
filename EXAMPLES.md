@@ -1,7 +1,6 @@
 # LCON Examples for version 0.1
 This example demonstrates all 16 text colors on a dark green background.
 ```cpp
-#include <iostream>
 #include "LCON.h"
 
 int main() {
@@ -13,7 +12,7 @@ int main() {
     // Set text color
     LCON::SetTextColor(LCON::Color::black);
     for (int i = 0; i < 1000; i++) {
-        std::cout << "Black." << std::endl;
+        LCON::Print("Black.\n");
     }
 
     LCON::Console_Clear();
@@ -21,7 +20,7 @@ int main() {
     // Set text color
     LCON::SetTextColor(LCON::Color::gray);
     for (int i = 0; i < 1000; i++) {
-        std::cout << "Gray." << std::endl;
+        LCON::Print("Gray.\n");
     }
 
     LCON::Console_Clear();
@@ -29,7 +28,7 @@ int main() {
     // Set text color
     LCON::SetTextColor(LCON::Color::dark_gray);
     for (int i = 0; i < 1000; i++) {
-        std::cout << "Dark gray." << std::endl;
+        LCON::Print("Dark gray.\n");
     }
 
     LCON::Console_Clear();
@@ -37,7 +36,7 @@ int main() {
     // Set text color
     LCON::SetTextColor(LCON::Color::red);
     for (int i = 0; i < 1000; i++) {
-        std::cout << "Red." << std::endl;
+        LCON::Print("Red.\n");
     }
 
     LCON::Console_Clear();
@@ -45,7 +44,7 @@ int main() {
     // Set text color
     LCON::SetTextColor(LCON::Color::dark_red);
     for (int i = 0; i < 1000; i++) {
-        std::cout << "Dark red." << std::endl;
+        LCON::Print("Dark red\n");
     }
 
     LCON::Console_Clear();
@@ -53,7 +52,7 @@ int main() {
     // Set text color
     LCON::SetTextColor(LCON::Color::green);
     for (int i = 0; i < 1000; i++) {
-        std::cout << "Green." << std::endl;
+        LCON::Print("Green.\n");
     }
 
     LCON::Console_Clear();
@@ -61,7 +60,7 @@ int main() {
     // Set text color
     LCON::SetTextColor(LCON::Color::dark_green);
     for (int i = 0; i < 1000; i++) {
-        std::cout << "Dark green." << std::endl;
+        LCON::Print("Dark green.\n");
     }
 
     LCON::Console_Clear();
@@ -69,7 +68,7 @@ int main() {
     // Set text color
     LCON::SetTextColor(LCON::Color::blue);
     for (int i = 0; i < 1000; i++) {
-        std::cout << "Blue." << std::endl;
+        LCON::Print("Blue.\n");
     }
 
     LCON::Console_Clear();
@@ -77,7 +76,7 @@ int main() {
     // Set text color
     LCON::SetTextColor(LCON::Color::dark_blue);
     for (int i = 0; i < 1000; i++) {
-        std::cout << "Dark blue." << std::endl;
+        LCON::Print("Dark blue.\n");
     }
 
     LCON::Console_Clear();
@@ -85,7 +84,7 @@ int main() {
     // Set text color
     LCON::SetTextColor(LCON::Color::yellow);
     for (int i = 0; i < 1000; i++) {
-        std::cout << "Yellow." << std::endl;
+        LCON::Print("Yellow.\n");
     }
 
     LCON::Console_Clear();
@@ -93,7 +92,7 @@ int main() {
     // Set text color
     LCON::SetTextColor(LCON::Color::dark_yellow);
     for (int i = 0; i < 1000; i++) {
-        std::cout << "Dark yellow." << std::endl;
+        LCON::Print("Dark yellow.\n");
     }
 
     LCON::Console_Clear();
@@ -101,7 +100,7 @@ int main() {
     // Set text color
     LCON::SetTextColor(LCON::Color::cyan);
     for (int i = 0; i < 1000; i++) {
-        std::cout << "Cyan." << std::endl;
+        LCON::Print("Cyan.\n");
     }
 
     LCON::Console_Clear();
@@ -109,7 +108,7 @@ int main() {
     // Set text color
     LCON::SetTextColor(LCON::Color::dark_cyan);
     for (int i = 0; i < 1000; i++) {
-        std::cout << "Dark cyan." << std::endl;
+        LCON::Print("Dark cyan.\n");
     }
 
     LCON::Console_Clear();
@@ -117,7 +116,7 @@ int main() {
     // Set text color
     LCON::SetTextColor(LCON::Color::magenta);
     for (int i = 0; i < 1000; i++) {
-        std::cout << "Magenta." << std::endl;
+        LCON::Print("Magenta.\n");
     }
 
     LCON::Console_Clear();
@@ -125,6 +124,6 @@ int main() {
     // Set text color
     LCON::SetTextColor(LCON::Color::dark_magenta);
     for (int i = 0; i < 1000; i++) {
-        std::cout << "Dark magenta." << std::endl;
+        LCON::Print("Dark magenta.\n");
     }
 }
