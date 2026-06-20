@@ -1,4 +1,4 @@
-# LCON Examples for version 0.1
+# LCON Examples for version 0.2
 This example demonstrates all 16 text colors on a dark green background.
 ```cpp
 #include "LCON.h"
