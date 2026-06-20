@@ -1,6 +1,6 @@
 #pragma once
 
-// LCON 0.1 - Lin's Console Library
+// LCON 0.2 - Lin's Console Library
 
 namespace LCON {
 	enum Color {
@@ -240,6 +240,12 @@ namespace LCON {
 		FillConsoleOutputAttribute(hConsole, csbi.wAttributes, csbi.dwSize.X * csbi.dwSize.Y, Start_Coord, &written);
 
 		SetConsoleCursorPosition(hConsole, Start_Coord);
+	}
+
+	void Print(const char* text) {
+		HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+		DWORD written;
+		WriteConsoleA(hConsole, text, strlen(text), &written, NULL);
 	}
 
 #else
